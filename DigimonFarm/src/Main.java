@@ -29,7 +29,7 @@ public class Main {
 				null,
 				"Enter your name here");
 		
-		System.out.println(name + ", what a nice name!");
+		System.out.println(name + ", what a   nice name!");
 		
 		System.out.println("Now that " + name + " has a name, it's time to head to the farm!");
 		
