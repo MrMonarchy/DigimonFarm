@@ -1,7 +1,5 @@
-import java.awt.BorderLayout;
+import java.util.Random;
 
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 //Elijah Hernandez
@@ -9,6 +7,8 @@ import javax.swing.JOptionPane;
 public class Main {
 
 	public static void main(String[] args) {
+		//Method made primarily to welcome the user and introduce them to their digimon
+	
 
 		System.out.println("Welcome Digital Trainer!");
 		
@@ -16,35 +16,66 @@ public class Main {
 
 		System.out.println("Since you're a new trainer, I think this Digimon would be more your speed.");
 		
-		System.out.println("This is Koromon! He is an In-Training Digimon, but don't let his size fool you. This small pink creature has a mean bite and a fiery temper.");
+		System.out.println("This is Koromon! He is an In-Training Digimon, but don't let his size fool you.");
 		
+		System.out.println("This small pink creature has a mean bite and a fiery temper.");
 	
 		String name = (String)JOptionPane.showInputDialog(null,
 				
 				"What will you call your Koromon?",
 				"DigiFarm",
-				
 				2,
 				null,
 				null,
 				"Enter your name here");
 		
-		System.out.println(name + ", what a   nice name!");
-		
+		System.out.println(name + \t", what a nice name!");
+							//Trying to figure out the escape for this line
 		System.out.println("Now that " + name + " has a name, it's time to head to the farm!");
 		
-	
+		System.out.println("In the farm you can feed your Koromon, search the cave for treasures, and train your digimon.");
 		
-				
-				
 	
-	
-	
+	        String[] options = {"Garden", "Gym", "Forest"};
+	        
+	        int x = JOptionPane.showOptionDialog(null, "Where would you like to go to on the farm?",
+	                "Click a button",
+	                JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options, options[0]);
+	       
+	        if (x == 0) {
+	        	System.out.println("Welcome to the Garden!");}
+	        
+	        if (x == 1) {
+	        	
+	        double digiGym(String[] args1) {
+	        	//Used to switch the int to double methods
+	        	 final double workout = 25.0;
+	        	//In Java we use final keyword with variables to specify its values are not to be changed
+	        		System.out.println("Welcome to the Gym!");
+	        		System.out.println("Your Koromon will start a workout now!");
+	        		System.out.println("Your workout is completed! You have earned the following EXP!");
+	        	double gymEXP = workout;
+	        	return gymEXP;
+	        }
+	        }
+	        else {
+	        	System.out.println("Welcome to the Forest!");
+	        
+	        	Random rand = new Random();
+	        	int n = rand.nextInt(5) + 1;
+	        	System.out.println(n);
+	        	
+	        	if (n == 1) {
+	        		System.out.println("You found an EXP Potion! Raise your level by one!");}
+	        	if (n == 2) {
+	        		System.out.println("You found a Shiny Gem! It looks like it's worth a lot!");}
+	        	if (n == 3) {
+	        		System.out.println("");
+	        	
+	        	}
+	        }
+	     
+
+
 }
-
-	
-	}
-	
-	
-
-
+}
