@@ -29,7 +29,7 @@ public class Main {
 				null,
 				"Enter your name here");
 		
-		System.out.println(name + \t", what a nice name!");
+		System.out.println(name + "\nWhat a nice name!");
 							//Trying to figure out the escape for this line
 		System.out.println("Now that " + name + " has a name, it's time to head to the farm!");
 		
@@ -46,8 +46,8 @@ public class Main {
 	        	System.out.println("Welcome to the Garden!");}
 	        
 	        if (x == 1) {
-	        	
-	        double digiGym(String[] args1) {
+	     
+	        {
 	        	//Used to switch the int to double methods
 	        	 final double workout = 25.0;
 	        	//In Java we use final keyword with variables to specify its values are not to be changed
@@ -55,9 +55,10 @@ public class Main {
 	        		System.out.println("Your Koromon will start a workout now!");
 	        		System.out.println("Your workout is completed! You have earned the following EXP!");
 	        	double gymEXP = workout;
-	        	return gymEXP;
+	        	System.out.println(gymEXP);
 	        }
 	        }
+	        
 	        else {
 	        	System.out.println("Welcome to the Forest!");
 	        
@@ -70,12 +71,15 @@ public class Main {
 	        	if (n == 2) {
 	        		System.out.println("You found a Shiny Gem! It looks like it's worth a lot!");}
 	        	if (n == 3) {
-	        		System.out.println("");
+	        		System.out.println("");}
 	        	
-	        	}
+	        	
 	        }
-	     
+		
+	}
+	       public static double main2(String[] args2) {
+	    	   
+	       }
 
 
-}
 }
