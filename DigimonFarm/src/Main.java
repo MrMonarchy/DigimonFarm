@@ -28,9 +28,9 @@ public class Main {
 				null,
 				null,
 				"Enter your name here");
-		
+					//Used an escape to separate name and the following sentence
 		System.out.println(name + "\nWhat a nice name!");
-							//Trying to figure out the escape for this line
+							
 		System.out.println("Now that " + name + " has a name, it's time to head to the farm!");
 		
 		System.out.println("In the farm you can feed your Koromon, search the cave for treasures, and train your digimon.");
@@ -71,13 +71,30 @@ public class Main {
 	        	if (n == 2) {
 	        		System.out.println("You found a Shiny Gem! It looks like it's worth a lot!");}
 	        	if (n == 3) {
-	        		System.out.println("");}
-	        	
+	        		System.out.println("You found a Digifruit! It has been added to your Garden!");}
+	        	if (n == 4) {
+	        		System.out.println("You found nothing sadly.");}
 	        	
 	        }
 		
 	}
-	       public static double main2(String[] args2) {
+		//A while loop that will be used to help evolve the digimon
+			public static void main1(String args[]){
+				int i=10;
+				while(i>1) {
+						System.out.println(i);
+						i--;
+				}
+			
+			
+			}
+			
+			
+			
+			
+			
+			public static double main2(String[] args2) {
+				
 	    	   
 	       }
 
