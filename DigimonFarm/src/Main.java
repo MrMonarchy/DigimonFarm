@@ -93,10 +93,7 @@ public class Main {
 			
 			
 			
-			public static double main2(String[] args2) {
-				
-	    	   
-	       }
+			
 
 
 }

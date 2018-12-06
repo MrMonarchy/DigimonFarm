@@ -1,4 +1,4 @@
-
+//Class used to demostrate the uses of an overlord
 public class Overlord {
 
 	public void disp(char c)
