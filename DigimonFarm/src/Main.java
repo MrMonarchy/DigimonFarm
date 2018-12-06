@@ -78,7 +78,7 @@ public class Main {
 	        }
 		
 	}
-		//A while loop that will be used to help evolve the digimon
+			//A while loop that will be used to help evolve the digimon
 			public static void main1(String args[]){
 				int i=10;
 				while(i>1) {
